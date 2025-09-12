@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Food Recipe Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #ff7043;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .recipe {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .recipe img {
+      width: 100%;
+      max-width: 350px;
+      object-fit: cover;
+    }
+    .recipe-details {
+      padding: 20px;
+      flex: 1;
+      min-width: 300px;
+    }
+    .recipe-details h2 {
+      margin-top: 0;
+      color: #ff7043;
+    }
+    .ingredients, .instructions {
+      margin-top: 15px;
+    }
+    .ingredients ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .instructions ol {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ff7043;
+      color: white;
+      font-weight: 600;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>Delicious Food Recipes</header>
+  <main>
+
+    <section class="recipe">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Spaghetti Carbonara" />
+      <div class="recipe-details">
+        <h2>Spaghetti Carbonara</h2>
+        <p>A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.</p>
+
+        <div class="ingredients">
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>200g spaghetti</li>
+            <li>100g pancetta or bacon</li>
+            <li>2 large eggs</li>
+            <li>50g Parmesan cheese, grated</li>
+            <li>2 cloves garlic</li>
+            <li>Salt and black pepper</li>
+            <li>Olive oil</li>
+          </ul>
+        </div>
+
+        <div class="instructions">
+          <h3>Instructions:</h3>
+          <ol>
+            <li>Cook spaghetti in salted boiling water until al dente.</li>
+            <li>While pasta cooks, sauté pancetta with garlic in olive oil until crispy.</li>
+            <li>Beat eggs with grated Parmesan, salt, and pepper in a bowl.</li>
+            <li>Drain pasta, reserving some cooking water.</li>
+            <li>Mix pasta quickly with pancetta and remove garlic.</li>
+            <li>Remove from heat and stir in the egg mixture, adding pasta water to create a creamy sauce.</li>
+            <li>Serve immediately with extra Parmesan and pepper.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80" alt="Avocado Toast" />
+      <div class="recipe-details">
+        <h2>Avocado Toast</h2>
+        <p>A quick, healthy, and tasty breakfast or snack option.</p>
+
+        <div class="ingredients">
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>2 slices of bread</li>
+            <li>1 ripe avocado</li>
+            <li>1 tsp lemon juice</li>
+            <li>Salt and pepper to taste</li>
+            <li>Optional: chili flakes, olive oil drizzle</li>
+          </ul>
+        </div>
+
+        <div class="instructions">
+          <h3>Instructions:</h3>
+          <ol>
+            <li>Toast the bread slices to your liking.</li>
+            <li>Mash the avocado with lemon juice, salt, and pepper.</li>
+            <li>Spread mashed avocado on toast.</li>
+            <li>Sprinkle chili flakes and drizzle olive oil if desired.</li>
+            <li>Serve immediately.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Foodie Heaven
+  </footer>
+</body>
+</html>
